@@ -1,0 +1,7 @@
+curl -X POST --header 'Content-Type: application/json' http://localhost:3000/apartments -d '{"name": "Flat one", "apartment_number": 4, "project_name": "Project one"}'
+curl -X POST --header 'Content-Type: application/json' http://localhost:3000/apartments -d '{"name": "Flat two", "apartment_number": 8, "project_name": "Project two"}'
+curl -X POST --header 'Content-Type: application/json' http://localhost:3000/apartments -d '{"name": "Flat three", "apartment_number": 15, "project_name": "Project two"}'
+curl -X POST --header 'Content-Type: application/json' http://localhost:3000/apartments -d '{"name": "Apartment one", "apartment_number": 16, "project_name": "Project one"}'
+curl -X POST --header 'Content-Type: application/json' http://localhost:3000/apartments -d '{"name": "Apartment two", "apartment_number": 23, "project_name": "Project three"}'
+curl -X POST --header 'Content-Type: application/json' http://localhost:3000/apartments -d '{"name": "Apartment three", "apartment_number": 42, "project_name": "Project two"}'
+curl -X POST --header 'Content-Type: application/json' http://localhost:3000/apartments -d '{"name": "Apartment four", "apartment_number": 108, "project_name": "Project three"}'
